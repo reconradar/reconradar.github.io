@@ -80,6 +80,18 @@ function counts() {
 }
 
 function render() {
+  // Nothing checked yet. Say so plainly rather than padding the page.
+  if (!claims.length) {
+    document.querySelector('.controls').hidden = true;
+    results.innerHTML = `
+      <div class="no-articles">
+        <strong>The ledger opens with our first story.</strong>
+        <span>Every claim we check gets logged here &mdash; confirmed, unverified or debunked, with a source. Nothing goes in until we&rsquo;ve actually checked it.</span>
+      </div>`;
+    empty.hidden = true;
+    return;
+  }
+
   const q = search.value.trim().toLowerCase();
   const shown = claims.filter(c => {
     if (filter !== 'all' && c.status !== filter) return false;
