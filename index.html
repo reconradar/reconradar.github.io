@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RECON RADAR — Every GTA 6 leak, checked</title>
+<meta name="description" content="A running ledger of every GTA 6 claim, leak and rumour — each marked confirmed, debunked or unverified, with a source. Grand Theft Auto VI, 19 November 2026.">
+<meta property="og:title" content="RECON RADAR — Every GTA 6 leak, checked">
+<meta property="og:description" content="Every GTA 6 claim, with a verdict. Confirmed, debunked or unverified — with sources.">
+<meta property="og:image" content="og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Oswald:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="bar">
+  <a class="brand" href="./">
+    <img src="logo.png" alt="">
+    <span>RECON&nbsp;RADAR</span>
+  </a>
+  <nav class="bar-nav">
+    <a href="#latest">Latest</a>
+    <a href="#ledger">The Ledger</a>
+    <a href="https://www.youtube.com/@reconradar">YouTube</a>
+    <a href="https://discord.gg/feUGCgkzH">Discord</a>
+  </nav>
+  <a class="btn-sub" href="#subscribe">Subscribe</a>
+</header>
+
+<section class="hero">
+  <p class="eyebrow">Grand Theft Auto VI &mdash; 19 November 2026</p>
+  <h1>Every GTA&nbsp;6 leak,<br><em>checked.</em></h1>
+  <p class="lede">
+    The internet is full of fake GTA&nbsp;6 leaks, recycled rumours and clickbait.
+    We check each claim, publish the verdict, and say plainly when something is fake.
+  </p>
+  <div class="strip" id="countdown">
+    <span><b id="d">--</b> days</span><i></i>
+    <span><b id="h">--</b> hrs</span><i></i>
+    <span><b id="m">--</b> min</span><i></i>
+    <span><b id="s">--</b> sec</span>
+    <em class="until">until launch</em>
+  </div>
+</section>
+
+<main>
+
+  <!-- ================= LATEST ARTICLES ================= -->
+  <section id="latest">
+    <div class="head">
+      <h2>Latest</h2>
+      <p>Every story we publish, written up in full.</p>
+    </div>
+    <div id="articles"></div>
+  </section>
+
+  <!-- ================= THE LEDGER ================= -->
+  <section id="ledger">
+    <div class="head">
+      <h2>The Ledger</h2>
+      <p>Every GTA&nbsp;6 claim we've looked at, with a verdict and a source.</p>
+    </div>
+
+    <div class="controls">
+      <input type="search" id="search" placeholder="Search claims&hellip;" aria-label="Search claims">
+      <div class="filters" role="group" aria-label="Filter by verdict">
+        <button class="chip is-active" data-filter="all">All <b id="c-all"></b></button>
+        <button class="chip" data-filter="confirmed">Confirmed <b id="c-confirmed"></b></button>
+        <button class="chip" data-filter="unverified">Unverified <b id="c-unverified"></b></button>
+        <button class="chip" data-filter="debunked">Debunked <b id="c-debunked"></b></button>
+      </div>
+    </div>
+
+    <div id="results" class="rows"></div>
+    <p class="none" id="empty" hidden>Nothing matches that.</p>
+    <p class="stamp" id="updated"></p>
+  </section>
+
+  <!-- ================= SUBSCRIBE ================= -->
+  <section id="subscribe" class="sub">
+    <div>
+      <h2>Get it before the algorithm does</h2>
+      <p>One email when something real happens. No fake leaks, no daily spam, unsubscribe whenever.</p>
+    </div>
+    <form class="sub-form"
+          action="https://buttondown.com/api/emails/embed-subscribe/reconradargg"
+          method="post" target="popupwindow"
+          onsubmit="window.open('https://buttondown.com/reconradargg','popupwindow')">
+      <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address">
+      <button type="submit">Notify me</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div class="foot-grid">
+    <div>
+      <h3>Follow</h3>
+      <a href="https://www.youtube.com/@reconradar">YouTube</a>
+      <a href="https://www.tiktok.com/@reconradar">TikTok</a>
+      <a href="https://x.com/ReconRadarGG">X</a>
+      <a href="https://www.instagram.com/reconradar">Instagram</a>
+    </div>
+    <div>
+      <h3>Community</h3>
+      <a href="https://discord.gg/feUGCgkzH">Discord server</a>
+      <a href="https://www.reddit.com/user/reconradar">Reddit</a>
+    </div>
+    <div>
+      <h3>About</h3>
+      <p class="small">
+        RECON RADAR is an independent fan site covering Grand Theft Auto VI.
+        We verify before we publish, and we correct ourselves in public when we get it wrong.
+      </p>
+    </div>
+  </div>
+  <p class="disclaimer">
+    Not affiliated with, endorsed by, or associated with Rockstar Games or Take-Two Interactive.
+    All trademarks are the property of their respective owners.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

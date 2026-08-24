@@ -1,0 +1,86 @@
+{
+  "updated": "2026-08-24",
+  "claims": [
+    {
+      "id": "release-date-nov-19",
+      "claim": "GTA 6 releases on 19 November 2026",
+      "status": "confirmed",
+      "date": "2026-05-12",
+      "source": "Rockstar Games",
+      "sourceUrl": "https://www.rockstargames.com/VI",
+      "note": "Delayed from the original 26 May 2026 window. Rockstar has since said it is on track."
+    },
+    {
+      "id": "netflix-extended-look",
+      "claim": "An extended gameplay look premieres on Netflix on 27 August 2026",
+      "status": "confirmed",
+      "date": "2026-08-06",
+      "source": "Rockstar Games",
+      "sourceUrl": "https://www.rockstargames.com/newswire",
+      "note": "3PM ET on Netflix, then on Rockstar's YouTube channel later the same day."
+    },
+    {
+      "id": "console-exclusive-launch",
+      "claim": "Launch is console-only: PS5, PS5 Pro and Xbox Series X|S",
+      "status": "confirmed",
+      "date": "2025-12-01",
+      "source": "Rockstar Games",
+      "sourceUrl": "https://www.rockstargames.com/VI",
+      "note": "No PC version announced for launch. A later PC release has not been confirmed or denied."
+    },
+    {
+      "id": "cyberleek-leaks",
+      "claim": "An account called 'Cyberleek' is leaking genuine GTA 6 gameplay footage",
+      "status": "unverified",
+      "date": "2026-08-19",
+      "source": "Multiple outlets",
+      "sourceUrl": "https://kotaku.com",
+      "note": "Take-Two filed subpoenas against Microsoft and Discord on 20 Aug to unmask the source, which suggests they consider the material genuine. Rockstar has not confirmed authenticity. Treat individual clips as unverified until they are."
+    },
+    {
+      "id": "take-two-subpoenas",
+      "claim": "Take-Two subpoenaed Microsoft and Discord over the leaks",
+      "status": "confirmed",
+      "date": "2026-08-20",
+      "source": "Southern District Court of New York",
+      "sourceUrl": "https://variety.com",
+      "note": "Both companies have until 4 September 2026 to hand over account records."
+    },
+    {
+      "id": "cyberleek-crypto",
+      "claim": "The $CYBERLEEK crypto token is connected to Rockstar or GTA 6",
+      "status": "debunked",
+      "date": "2026-08-22",
+      "source": "RECON RADAR",
+      "sourceUrl": "",
+      "note": "The leaker has promoted a Solana token alongside the leaks. It has no connection to Rockstar Games or Take-Two. Do not buy it on the assumption that it does."
+    },
+    {
+      "id": "pricing",
+      "claim": "Standard edition is $80 and Deluxe is $100",
+      "status": "unverified",
+      "date": "2026-08-10",
+      "source": "Retail listings",
+      "sourceUrl": "",
+      "note": "Widely reported from retailer listings but not confirmed by Rockstar. Regional pricing may vary."
+    },
+    {
+      "id": "setting-leonida",
+      "claim": "The game is set in the state of Leonida, centred on Vice City",
+      "status": "confirmed",
+      "date": "2023-12-04",
+      "source": "Rockstar Games",
+      "sourceUrl": "https://www.rockstargames.com/VI",
+      "note": "Confirmed in Trailer 1. Leonida is a fictional state based on Florida."
+    },
+    {
+      "id": "dual-protagonists",
+      "claim": "Jason and Lucia are dual playable protagonists",
+      "status": "confirmed",
+      "date": "2023-12-04",
+      "source": "Rockstar Games",
+      "sourceUrl": "https://www.rockstargames.com/VI",
+      "note": "Confirmed across Trailer 1 and Trailer 2. Lucia is the first female lead in a mainline GTA."
+    }
+  ]
+}
