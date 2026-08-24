@@ -17,6 +17,8 @@
   --wrap:1080px;
 }
 *{box-sizing:border-box}
+/* the hidden attribute must beat any display rule set below */
+[hidden]{display:none !important}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--ink);color:var(--text);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased}
 a{color:inherit}
