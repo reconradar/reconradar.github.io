@@ -1,4 +1,81 @@
 {
   "_comment": "Articles appear on the site ONLY when they are real. Never add an entry for a video or post that does not exist. Schema and instructions are in README.md.",
-  "articles": []
+  "articles": [
+    {
+      "id": "cyberleek-what-is-confirmed",
+      "kicker": "Leaks",
+      "title": "The CyberLeek leaks: what is actually confirmed, and what isn't",
+      "standfirst": "Court filings, a community map project and a memecoin that appeared two days before the first leak. We read the subpoenas ourselves and checked the maths. Updated daily.",
+      "date": "2026-08-25",
+      "readingTime": "9 min read",
+      "body": [
+        { "p": "Since 18 August an anonymous account calling itself CyberLeek has released a steady run of Grand Theft Auto VI gameplay clips, along with a screenshot said to show the whole Leonida map. Take-Two has responded with takedown notices and federal subpoenas. Rockstar itself has said nothing at all." },
+        { "p": "This page separates what is established from what is merely repeated. We do not host, link to or describe the leaked material in any detail, and none of the images on this page come from the leak — they are all from Rockstar's own press kit." },
+
+        { "h": "The map" },
+        { "p": "The leak included a low-detail image said to be the full state of Leonida, split into five areas: Lummox, Kelly, Leonard, Vice-Dale and Mariana." },
+        { "image": { "src": "img/leonida-keys.jpg", "alt": "Aerial view of an island chain, causeway and open water in Leonida", "caption": "Leonida Keys, from Rockstar's official press kit. Not from the leak." } },
+        { "p": "For years a community mapping project has been reconstructing the map from trailers, screenshots and other released media. On 24 August, Mashable reported that members of that project had compared the leaked image against their own work and concluded it holds up — describing it as a low-render version missing buildings, small roads and bridges, but correct in what it does show." },
+        { "p": "There is an obvious objection to that, and it deserves stating: an image that closely resembles the community map is also exactly what a forgery built from the community map would look like. What weighs against that reading is the claim, from the mappers themselves, that the leak contains precise details which are not on the community map but can still be reconciled with known material. A forger working from the fan map could not have added those." },
+        { "status": { "verdict": "unverified", "text": "The map has been endorsed by the people best placed to check it, and Take-Two's filings describe the leaked material as stolen content. But Rockstar has confirmed nothing, and endorsement by enthusiasts is not the same as confirmation by the publisher." } },
+        { "image": { "src": "img/vice-city.jpg", "alt": "The Vice City sign at sunset with an aircraft overhead", "caption": "Vice City. Official Rockstar press-kit image." } },
+
+        { "h": "What Take-Two actually filed" },
+        { "p": "Take-Two has gone to the Southern District of New York using DMCA subpoenas under 17 U.S.C. 512(h). We downloaded and read two of them." },
+        { "p": "The first, case 1:26-mc-00425, is directed at Google as the provider of YouTube and concerns a single video. The second, 1:26-mc-00426, is directed at X Corp and concerns the account @cyberleek_ar_io and three specific posts. Both were filed on 21 August 2026 by Rachel Bandli of Ruttenberg IP Law, and both name the personas CyberLeeks, Surfer24k and CyberLeek_ar_io." },
+        { "p": "The mechanism is worth understanding, because it is not what most people picture when they hear the word subpoena. A 512(h) subpoena is issued by the court clerk, not a judge. There is no lawsuit, no hearing, and nobody arguing the other side. The rights holder swears the request is solely to identify an alleged infringer, and the clerk signs." },
+        { "status": { "verdict": "confirmed", "text": "Two DMCA subpoenas filed 21 August 2026 in the Southern District of New York, targeting Google and X Corp. We have read both filings in full." } },
+        { "p": "Reporting from Tom's Hardware and Kotaku describes two further subpoenas, aimed at Microsoft and Discord, seeking a much broader set of records — device identifiers, login IP addresses, phone numbers, linked accounts and cloud storage contents — for every account that communicated in a set of named Discord servers since 1 June 2026, with a deadline of 4 September. Those filings are not currently available on CourtListener, so we have not read them and are not treating their contents as established." },
+        { "status": { "verdict": "unverified", "text": "The Microsoft and Discord subpoenas are credibly reported but we have not obtained the documents. Sources also disagree on how many Discord servers are named, which is why we do not state a number." } },
+
+        { "h": "Something we checked ourselves" },
+        { "p": "Discord IDs encode the moment they were created, so anyone can decode them with arithmetic. Applying the standard conversion to the server IDs that appear in the reporting gives 19 June 2026 for the Odyssey.gg server, 9 July 2023 for a second server, and 10 January 2017 for the DarkViperAU server." },
+        { "p": "That first date matters. If the records demand runs from 1 June 2026, it covers eighteen days during which that server did not exist. It is a small thing, and it proves nothing about the case, but it is checkable by anyone with a calculator — which is the whole point." },
+
+        { "h": "The demands, and why they are not nonsense" },
+        { "p": "CyberLeek published a manifesto with three demands: no digital pre-orders sold before a game is out and reviewed; no charging separately for single-player content already present in the base game's files; and guaranteed offline access to single-player content after servers are switched off." },
+        { "p": "It would be convenient to dismiss that as cover. It is not. Grand Theft Auto VI's physical edition is a download code in a box with no disc, confirmed by Rockstar and Take-Two back in June. And on 1 July 2026 Sony announced on its own PlayStation Blog that physical disc production for new PlayStation games ends in January 2028, noting physical was around three percent of its gaming revenue. The third demand echoes Stop Killing Games, a campaign that long predates any of this." },
+        { "status": { "verdict": "confirmed", "text": "The underlying grievance is factually grounded. The physical edition is a code in a box, and Sony has publicly confirmed the end of disc production for new titles from January 2028." } },
+        { "image": { "src": "img/grassrivers.jpg", "alt": "Swampland airboat scene in the Grassrivers region of Leonida", "caption": "Grassrivers. Official Rockstar press-kit image." } },
+
+        { "h": "The part that changes how you should read all of it" },
+        { "p": "Every leak video carries a watermark for a memecoin named after the account, hosted on Solana. GameSpot reported on 21 August that the coin appeared on 16 August — two days before the first gameplay leak. It rose more than five thousand percent within a day, early holders sold quickly, and tracking showed a largest single profit of around twenty-two thousand dollars against individual losses approaching ten thousand." },
+        { "p": "Then it got worse. On 24 August, Mashable reported that CyberLeek runs a poll on its own website determining which leak drops next, and that votes are cast by spending the cryptocurrency. The coin is not merely advertised alongside the leaks. It is the turnstile." },
+        { "status": { "verdict": "confirmed", "text": "The token predates the first leak by two days, and voting on which unreleased footage is published next is done by spending it." } },
+        { "p": "That does not make the leaked material fake — it plainly is not. It does mean the stated motive deserves no benefit of the doubt. A campaign about consumer rights that charges admission in its own currency is a business with a cause attached to the front of it, and the genuine argument underneath has been poisoned by it, because nobody now has to engage with the argument at all." },
+
+        { "h": "What is not established" },
+        { "p": "That CyberLeek possesses a complete, playable build of the game. A number of headlines state this outright. The reporting beneath those headlines says suspected. Most of the footage is believed to come from an older build, with estimates ranging across 2023 to 2025, meaning it may not represent what ships on 19 November." },
+        { "status": { "verdict": "unverified", "text": "No source has established that a complete playable build is in circulation. That the leak is real is confirmed many times over. How much of the game it amounts to is not." } },
+        { "image": { "src": "img/mount-kalaga.jpg", "alt": "Riders on rough terrain in Mount Kalaga National Park", "caption": "Mount Kalaga National Park. Official Rockstar press-kit image." } },
+
+        { "h": "A warning worth more than any of the above" },
+        { "p": "There is no downloadable build of Grand Theft Auto VI. Any site, Discord or torrent claiming to offer one is distributing malware. This is the single most useful thing on this page." },
+
+        { "h": "What happens next" },
+        { "p": "Rockstar's Extended Look premieres on 27 August, on Netflix at 3PM ET and on YouTube later the same evening. The reported deadline for the Microsoft and Discord responses is 4 September. The game itself is still dated 19 November 2026." },
+        { "p": "This page is updated as things are confirmed or fall over. Where we get something wrong, we correct it here and say so." },
+        { "link": { "text": "Read the Google subpoena on CourtListener", "url": "https://www.courtlistener.com/docket/74687090/take-two-interactive-software-inc/" } },
+        { "link": { "text": "Read the X Corp subpoena on CourtListener", "url": "https://www.courtlistener.com/docket/74687135/take-two-interactive-software-inc/" } }
+      ],
+      "proof": [
+        {
+          "image": "proof/nysd-425-google-p1.png",
+          "alt": "First page of Take-Two's request for a DMCA subpoena to Google LLC",
+          "caption": "Take-Two's request to the clerk for a DMCA subpoena to Google LLC, case 1:26-mc-00425",
+          "sourceName": "S.D.N.Y. via CourtListener",
+          "sourceUrl": "https://www.courtlistener.com/docket/74687090/take-two-interactive-software-inc/",
+          "retrieved": "2026-08-25"
+        },
+        {
+          "image": "proof/nysd-426-xcorp-p1.png",
+          "alt": "First page of Take-Two's request for a DMCA subpoena to X Corp",
+          "caption": "Take-Two's request to the clerk for a DMCA subpoena to X Corp, case 1:26-mc-00426",
+          "sourceName": "S.D.N.Y. via CourtListener",
+          "sourceUrl": "https://www.courtlistener.com/docket/74687135/take-two-interactive-software-inc/",
+          "retrieved": "2026-08-25"
+        }
+      ]
+    }
+  ]
 }

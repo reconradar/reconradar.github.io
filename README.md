@@ -63,6 +63,48 @@ Add an object to the `articles` array in `articles.json`:
 - `videoUrl` is optional — include it only if the video is actually published.
 - Everything is escaped on render, so quotes and apostrophes are safe.
 
+### Every short gets an article
+
+One short, one article. No exceptions. The short is what people arrive for and
+the article is what still exists in six months when search sends someone here.
+
+Pair them with `short`, which embeds the video at the top of the page:
+
+```json
+"short": { "youtubeId": "REAL_ID", "title": "Is the map really six times bigger?" }
+```
+
+### Proof
+
+Claims are shown, not asserted. Put the document or the page itself on the
+article as an image, and make that image a link to the official source:
+
+```json
+"proof": [
+  {
+    "image": "proof/subpoena-2026-09-04.png",
+    "alt": "Page one of Take-Two's subpoena to Discord",
+    "caption": "Take-Two Interactive v. Doe, subpoena to Discord Inc.",
+    "sourceName": "S.D.N.Y. docket via CourtListener",
+    "sourceUrl": "https://www.courtlistener.com/docket/REAL/",
+    "retrieved": "2026-09-01"
+  }
+]
+```
+
+A proof entry **needs** both `image` and `sourceUrl` or it is not rendered.
+The whole point is that the reader can go and check it themselves.
+
+- Screenshots go in `site/proof/`.
+- `sourceUrl` is a **deep link to the specific document or page** — never a
+  homepage, and never a screenshot of a screenshot. A picture of a legal
+  document posted to X is not the document; trace it to the court docket and
+  link that.
+- A single proof can also be dropped mid-body: `{ "proof": { … } }`.
+
+Never reproduce leaked or stolen material as "proof". Public records, official
+posts and court filings only — that distinction is the entire brand.
+
 **Workflow:** make the video → publish it → write the article → add the entry.
 The article is the durable, searchable version of the video. That is what earns
 Google traffic long after the video stops being recommended.

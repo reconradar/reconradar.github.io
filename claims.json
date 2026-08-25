@@ -1,5 +1,60 @@
 {
   "_comment": "THE LEDGER. Add a claim ONLY after RECON RADAR has actually checked it. Every entry needs a real source and, where one exists, a deep link to the specific article - never a homepage. Schema is in README.md.",
-  "updated": "2026-08-24",
-  "claims": []
+  "updated": "2026-08-25",
+  "claims": [
+    {
+      "id": "take-two-subpoenas-google-x",
+      "claim": "Take-Two filed federal subpoenas to unmask the GTA 6 leaker",
+      "status": "confirmed",
+      "date": "2026-08-25",
+      "source": "S.D.N.Y. via CourtListener",
+      "sourceUrl": "https://www.courtlistener.com/docket/74687090/take-two-interactive-software-inc/",
+      "note": "We downloaded and read both filings. Case 1:26-mc-00425 is directed at Google as YouTube's provider; 1:26-mc-00426 is directed at X Corp over the account @cyberleek_ar_io. Both filed 21 August 2026 under DMCA 17 U.S.C. 512(h), which is issued by the court clerk rather than a judge, with no lawsuit and no hearing."
+    },
+    {
+      "id": "cyberleek-coin-predates-leak",
+      "claim": "The CYBERLEEK memecoin was created to fund a consumer-rights protest",
+      "status": "debunked",
+      "date": "2026-08-25",
+      "source": "GameSpot",
+      "sourceUrl": "https://www.gamespot.com/articles/grand-theft-auto-6-leaks-are-fueling-a-crypto-pump-and-dump-scheme/",
+      "note": "The token appeared on Solana on 16 August, two days before the first gameplay leak on 18 August. It cannot have been created to fund a protest that had not started. Mashable later reported that votes deciding which leak drops next are cast by spending the coin, making it the paywall rather than the funding."
+    },
+    {
+      "id": "cyberleek-full-playable-build",
+      "claim": "CyberLeek holds a complete, fully playable build of GTA 6",
+      "status": "unverified",
+      "date": "2026-08-25",
+      "source": "Mashable",
+      "sourceUrl": "https://mashable.com/entertainment/grand-theft-auto-6-leaks-plane-nudist-colony",
+      "note": "Widely stated in headlines, but the underlying reporting says suspected rather than established. Mashable reports it is unclear how much of the game the account can access or how it was obtained, and that the footage most likely comes from an older build."
+    },
+    {
+      "id": "leonida-map-authentic",
+      "claim": "The leaked Leonida map screenshot is genuine",
+      "status": "unverified",
+      "date": "2026-08-25",
+      "source": "Mashable",
+      "sourceUrl": "https://mashable.com/tech/gta-6-map-leaked-resembles-community-mapping-project",
+      "note": "Members of the long-running community mapping project compared the leak against their own reconstruction and said it holds up, noting it contains precise details absent from the community map. That is strong, and it rules out a simple forgery traced from the fan map. It is still not confirmation: Rockstar has said nothing."
+    },
+    {
+      "id": "gta6-physical-is-code-in-box",
+      "claim": "GTA 6's physical edition contains a download code rather than a disc",
+      "status": "confirmed",
+      "date": "2026-08-25",
+      "source": "Rockstar / Take-Two, reported by Kotaku",
+      "sourceUrl": "https://kotaku.com/take-two-subpoenas-microsoft-and-discord-records-related-to-spread-of-gta-6-leaks-2000726633",
+      "note": "Confirmed since June 2026. This matters because it is the factual basis of the leaker's stated grievance, which is grounded even though the messenger is not credible."
+    },
+    {
+      "id": "downloadable-gta6-build-exists",
+      "claim": "A playable GTA 6 build can be downloaded from leak sites or Discords",
+      "status": "debunked",
+      "date": "2026-08-25",
+      "source": "GTA BOOM",
+      "sourceUrl": "https://www.gtaboom.com/",
+      "note": "No downloadable build exists. Sites, torrents and Discord servers claiming to offer one are distributing malware. Source link is the outlet homepage because we have not yet traced the specific article - named in text rather than deep-linked, per our own rule."
+    }
+  ]
 }
